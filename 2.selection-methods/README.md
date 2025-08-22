@@ -49,3 +49,15 @@ document.querySelector("p");         // by tag
 ```javascript
 document.querySelectorAll(".myClass");
 ```
+
+## ⭐ Important Points
+* **ID should be unique** → so `getElementById` always gives **only one element**.
+* **HTMLCollection vs NodeList**:
+   * HTMLCollection = live (updates if page changes).
+   * NodeList = static (doesn't update automatically).
+* `querySelector` & `querySelectorAll` are **most modern and flexible** (because they use CSS rules).
+* Use `querySelector` for **single element**, `querySelectorAll` for **multiple elements**.
+
+⚡ **In short:**
+* **Old ways** = `getElement...` (by ID, class, tag).
+* **Modern way** = `querySelector` / `querySelectorAll` (CSS style).
