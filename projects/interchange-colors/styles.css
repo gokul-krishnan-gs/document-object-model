@@ -1,0 +1,69 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+ 
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.box{
+  width:100px;
+  height: 100px;
+  background-color: azure;
+  text-align: center;
+
+
+}
+
+.red{
+  margin-top:10px;
+  background-color: red;
+  border: 3px solid black;
+  
+}
+
+.green{
+   background-color: green;
+   cursor: pointer;
+    border: 3px solid black;
+}
+
+.blue{
+   background-color: blue;
+   cursor: pointer;
+    border: 3px solid black;
+}
+
+.orange{
+  background-color: orange;
+  cursor: pointer;
+   border: 3px solid black;
+}
+
+.pink{
+  margin-bottom: 10px;
+   background-color: pink;
+   cursor: pointer;
+    border: 3px solid black;
+}
+
+@media (min-width: 630px){
+  .container{
+    flex-direction: row;
+  }
+  .red{
+  margin-top:0px;
+}
+
+.pink{
+  margin-bottom: 0px;
+}
+}
