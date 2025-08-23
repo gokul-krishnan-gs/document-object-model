@@ -2,6 +2,8 @@
 
 A simple interactive web page that allows users to change the **background color of the page** by clicking colored boxes. Clicking anywhere outside the boxes will **reset the background color** to its default.
 
+[🔗Live Link](https://gokul-krishnan-website.github.io/interchange-colors/)
+
 ## Features
 
 * Five colored boxes: **Red, Green, Blue, Orange, Pink**
